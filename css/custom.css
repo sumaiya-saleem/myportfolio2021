@@ -1,0 +1,341 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*index page start */
+.page-container {
+	max-width: 1000px;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+.navbar {
+	max-width: 1300px;
+	padding-top: 2%;
+}
+
+.nav-item a {
+	padding-bottom: 5px;
+	font-weight: 500;
+}
+
+
+.active {
+	font-weight: 700;
+
+}
+
+body {
+	font-family: "SF Pro Display";
+	font-weight: 400;
+	background-color: #fdfdfd;
+}
+
+.jumbotron {
+	background-color: #fdfdfd;
+	margin-top: 2%;
+	padding-left: 1.5%;
+}
+.hello-line {
+	font-weight: 800;
+	font-size: 3em;
+}
+
+.bio-line {
+	font-size: 1.3em;
+	font-weight: 700;
+	line-height: 1.2em;
+}
+
+/*index card images */
+.leapgrad-card .top-right-image {
+	width: 45%;
+	padding: 10% 10% 0% 0%;
+}
+
+.breadpledge-card .top-right-image {
+	width: 50%;
+	padding: 10% 10% 0% 0%;
+}
+
+.elph-card .top-right-image {
+	width: 50%;
+	padding: 8% 5% 2% 0%;
+}
+
+.voicemail-card .top-right-image {
+	width: 35%;
+	padding: 5% 10% 0% 0%;
+}
+
+.prepr-card .top-right-image {
+	width: 50%;
+	padding: 10% 5% 2% 0%;
+}
+
+/*index card text*/
+.breadpledge-card .card-title {
+	width: 60%;
+}
+
+.voicemail-card .card-title {
+	width: 60%;	
+}
+
+.prepr-card .card-title {
+	width: 60%;
+}
+
+.elph-card .card-title {
+	width: 70%;
+}
+
+.card-body {
+	margin-left: 2%;
+	margin-top:0%;
+	padding-top: 0%;
+}
+
+.card-title {
+	width: 70%;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.card {
+	border: none;
+	border-radius: 0;
+	min-height: 250px;
+}
+
+/*index card colours*/
+
+.leapgrad-card {
+	background-color: #BEE3DB;
+}
+
+.breadpledge-card {
+	background-color: #FFD6BA;
+}
+
+.voicemail-card {
+	background-color: #C0BDDF;
+}
+
+.prepr-card {
+	background-color: #DDEDAA;
+}
+
+.elph-card {
+	background-color: #CBDFBD;
+}
+
+a .card-body{
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+
+}
+
+/*about page css start*/
+
+.aboutpage-container {
+	max-width: 500px;
+	justify-content: center;
+	vertical-align: middle;
+	margin-top: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutpage-container {
+    padding: 10%;
+  }
+}
+
+
+.about-line {
+	font-weight: 800;
+	text-align: left;
+	font-size: 2em;
+}
+
+.about-bio {
+	font-size: 1em;
+}
+
+.social-icon {
+	margin-right: 2%;
+}
+
+.about-icons a img{
+	width: 2.4em;
+}
+
+.about-icons a:hover {
+	opacity: 0.8;
+	transtion: 0.3s;
+}
+
+/*about page css end*/
+
+/*inner page start*/
+.inner-page-container {
+	max-width: 900px;
+	margin: auto;
+}
+
+.page-heading {
+	font-weight: 700;
+	margin-top: 100px;
+}
+
+.inner-p {
+	font-size: 1.1em;
+	font-weight: 400;
+	color: #505050;
+}
+
+.main-mockup img{
+	max-width: 100%;
+	float: right;
+	margin-top: 100px;
+}
+
+.sub-heading {
+	display: inline-block;
+	font-size: 1.3em;
+	font-weight: 700;
+	
+}
+
+.inner-p li {
+	padding: 4px;
+	font-size: 1em;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: 700;
+	padding: 20px;
+	color: #fdfdfd;
+	background-color: #080808;
+	border-radius: 20px;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 1.1em;
+}
+
+a {
+	color: #000000;
+	font-weight: 600;
+}
+
+a:hover {
+	color: #3B5A9F;
+	opacity: 0.7;
+}
+
+li {
+	padding-bottom: 12px;
+	font-size: 1.1em;
+	font-weight: 400;
+	color: #505050;
+}
+
+.role p {
+	border-bottom: 1px solid #C0BFBF;
+	padding-bottom: 12px;
+	
+}
+
+.role a {
+	font-weight: 400;
+}
+
+h2.role-heading {
+	color: #282828;
+	display: inline-block;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+.blue-background {
+	background-color: #F2F1FF;
+	overflow-x: hidden;
+	width: 100%;
+	padding: 1%;
+}
+
+.bp-wireframes h2 {
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+.bp-wireframes img {
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+	max-width: 80%;
+}
+
+.vm-image img{
+	max-width: 80%;
+	margin: auto;
+}
+
+.yellow-highlight {
+	background-color: #FFDEA8;
+	position: relative;
+}
+
+.pdf-packages {
+	float: none;
+	margin: 0 auto;
+    display: inline-block;
+	width: 100%;
+	
+}
+
+.pdf-packages figcaption {
+	text-align: center;
+	font-weight: 400;
+}
+
+.pdf-packages img {
+	padding: 10px;
+}
+
+.pdf-packages img:hover {
+	opacity: 0.7;
+}
+
+.pdf-packages embed {
+	padding: 5px;
+}
+
+
+/*inner page end*/
+
+.footer {
+	font-size: 0.8em;
+	opacity: 0.8;
+	
+}
