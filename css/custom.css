@@ -49,12 +49,12 @@ body {
 /*index card images */
 .leapgrad-card .top-right-image {
 	width: 45%;
-	padding: 10% 10% 0% 0%;
+	padding: 10% 10% 5% 0%;
 }
 
 .breadpledge-card .top-right-image {
-	width: 50%;
-	padding: 10% 10% 0% 0%;
+	width: 45%;
+	padding: 10% 8% 0% 0%;
 }
 
 .elph-card .top-right-image {
@@ -63,8 +63,8 @@ body {
 }
 
 .voicemail-card .top-right-image {
-	width: 35%;
-	padding: 5% 10% 0% 0%;
+	width: 60%;
+	padding: 0% 5% 4% 0%;
 }
 
 .prepr-card .top-right-image {
@@ -74,7 +74,7 @@ body {
 
 /*index card text*/
 .breadpledge-card .card-title {
-	width: 60%;
+	width: 70%;
 }
 
 .voicemail-card .card-title {
@@ -92,6 +92,10 @@ body {
 .card-body {
 	margin-left: 2%;
 	margin-top:0%;
+	padding-top: 5%;
+}
+
+.leapgrad-card .card-body {
 	padding-top: 0%;
 }
 
@@ -104,8 +108,8 @@ body {
 .card {
 	border: none;
 	border-radius: 0;
-	min-height: 250px;
-	max-height: 400px;
+	min-height: 380px;
+	max-height: 380px;
 }
 
 /*index card colours*/
