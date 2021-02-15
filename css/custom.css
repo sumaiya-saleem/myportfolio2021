@@ -24,11 +24,13 @@
 
 }
 
+
 body {
-	font-family: "SF Pro Display", 'Helvetica', 'lato', 'sans-serif';
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 	font-weight: 400;
 	background-color: #fdfdfd;
 }
+
 
 .jumbotron {
 	background-color: #fdfdfd;
