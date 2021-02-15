@@ -105,6 +105,7 @@ body {
 	border: none;
 	border-radius: 0;
 	min-height: 250px;
+	max-height: 400px;
 }
 
 /*index card colours*/
